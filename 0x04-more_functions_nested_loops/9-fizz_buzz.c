@@ -1,10 +1,13 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 /**
-*main - program that prints either number
-*or fizz or buzz or fizzBuzz
-*Return: returns 0
-*/
+ * main - prints the numbers from 1 to 100
+ * 3 multiples print Fizz instead of the number
+ * 5 multiples print Buzz instead of the number
+ * 3 & 5 multiples print FizzBuzz instead of the number
+ * Return: Always 0 (Success)
+ */
 
 int main(void)
 {
@@ -33,7 +36,7 @@ int main(void)
 		}
 		else
 		{
-			printf("%d ", num);
+			printf("%d", num);
 		}
 	}
 	printf("\n");
