@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "main.h"
 
 /**
  * main - program that prints either number
@@ -28,7 +29,7 @@ int main(void)
 			}
 			else
 			{
-				printf("Buzz");
+				printf("Buzz ");
 			}
 		}
 		else
