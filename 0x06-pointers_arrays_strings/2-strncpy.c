@@ -5,11 +5,11 @@
  *  including the
  *terminating null byte, using at most an input
  *number of byte
- *If the length of the source string is less than the
+ *If the length of the source string is less than
  *maximum byte number
- *the remainder of the destination string is 
+ *the remainder of the destination string is
  * filled with null bytes
- *Works identically to the standard library function
+ *Works identically to the standard library func
  *@dest: buffer storing the string copy
  *@src:the source string
  *@n:max nummber of byte copied
