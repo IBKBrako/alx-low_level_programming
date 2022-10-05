@@ -1,14 +1,12 @@
-#include "main.h"
 #include <stdlib.h>
+#include "main.h"
 
 /**
-* create_array - creates an array of chars, and
-* initializes it with specific char
-* @size: size of array
-* @c: character to insert
-* return null if size is zero or if it fails
-* pointer to array if everything is normal
-*/
+ * create_array - creates an array of chars dynamically
+ * @size: size of the array
+ * @c: the string
+ * Return: 0 means success except defined otherwise
+ */
 
 char *create_array(unsigned int size, char c)
 {
