@@ -3,14 +3,25 @@
 /**
  * op_add - calculates the sum of two integer
  * @a: first integer
- * @b: second intege
+ * @b: second integer
  * Return: sum of a and b
  */
-
 
 int op_add(int a, int b)
 {
 	return (a + b);
+}
+
+/** 
+ * op_sub - diff of two integers
+ * @a: first integer
+ * @b: second integer
+ * Return: diff between a and b
+ */
+
+int op_sub(int a, int b)
+{
+	return (a - b)
 }
 
 /**
